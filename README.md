@@ -5,4 +5,4 @@ Learning Jetpack Compose
 I need to improve on writing composables, review architecture concepts, and start learning Retrofit :)
 
 ## Demo
-()[https://github.com/sxxxi/NotesApp/new/main/repo/notesAppDemo.gif]
+[](https://github.com/sxxxi/NotesApp/blob/main/repo/notesAppDemo.gif)
