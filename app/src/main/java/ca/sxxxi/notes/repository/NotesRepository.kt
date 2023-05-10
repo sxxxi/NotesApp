@@ -20,4 +20,8 @@ class NotesRepository(private val notesDao: NoteDao) {
     suspend fun updateNote(note: Note) {
         withContext(Dispatchers.IO) { notesDao.updateNote(note) }
     }
+
+    suspend fun deleteNotes(vararg notes: Note) {
+        withContext(Dispatchers.IO) { notesDao.deleteAllById(notes.toList()) }
+    }
 }
